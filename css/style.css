@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrap {
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+
+}
+
+
+.tv{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid red;
+}
+.phone{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid red;
+}
+
+.car{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid red;
+}
+.fridge{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid red;
+}
+.chocolate{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid red;
+    margin-bottom: 30px;
+}
+
+img{
+    width: 100px;
+    height: 90px;
+
+}
+
+.tv_cart{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.phone_cart{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+
+}
+.car_cart{
+    width: 100%;
+    gap: 30px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.fridge_cart{
+    gap: 30px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.chocolate_cart{
+    width: 100%;
+    margin: 0 auto;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.cart{
+    font-style: unset;
+    width: 200px;
+    height: initial;
+    box-shadow: 0 0 10px  #19212E;
+    border-radius: 10px;
+    text-align: start;
+    overflow: hidden;
+    padding-left: 10px;
+    color: #19212E;
+   
+}
+
+.name{
+    font-size: 30px;
+    font-weight: 800;
+}
+span{
+    display: flex;
+    gap: 10px;
+    color: gray;
+    font-size: 20px;
+    flex-wrap: wrap;
+
+}
+
+.btn{
+    margin: 10px 25px;
+    padding: 10px 50px;
+    border: 2px solid red;
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #19212E;
+    color: white;
+}
